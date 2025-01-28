@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Macondo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: rgb(63, 47, 47);
+    padding: 10px 20px;
+}
+
+nav{
+    text-decoration: none;
+    color: rgb(231, 223, 223);
+    background-color: rgb(63, 47, 47);
+    padding: 10px 20px;
+} 
+
+img{
+    align-items: center;
+}
+
+.logo{
+    border-radius: 8px;
+    max-height: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* main */
+
+h1 {
+    color: rgb(85, 15, 151);
+    font-family: "Creepster", system-ui;
+    margin: 20px;
+    padding: 10px;
+}
+
+.row > * {
+    border: 1px solid black;
+}
+
+.btn {
+    border: 1px solid black;
+}
+
+/* .col{
+    border: 1px solid black;
+} */
