@@ -15,11 +15,14 @@ header{
 }
 
 nav{
-    text-decoration: none;
-    color: rgb(231, 223, 223);
     background-color: rgb(63, 47, 47);
     padding: 10px 20px;
 } 
+
+.nav-item a{
+    color: rgb(231, 223, 223);
+    text-decoration: none;
+}
 
 img{
     align-items: center;
@@ -27,13 +30,17 @@ img{
 
 .logo{
     border-radius: 8px;
-    max-height: 50px;
+    max-height: 80px;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
 }
 
 .nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* main */
@@ -49,8 +56,9 @@ h1 {
     border: 1px solid black;
 }
 
-.btn {
-    border: 1px solid black;
+.btn-outline-success {
+    color: white; 
+    border-color: rgb(2, 2, 2);  
 }
 
 /* .col{
