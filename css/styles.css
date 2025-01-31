@@ -45,6 +45,10 @@ img{
 
 /* main */
 
+body{
+    background-color: rgb(95, 93, 93);
+}
+
 h1 {
     color: rgb(85, 15, 151);
     font-family: "Creepster", system-ui;
@@ -68,9 +72,8 @@ h2{
     border-color: rgb(2, 2, 2);  
 }
 
-.cardConteiner {
+.cardContainer {
     width: 100%;
-    background-color: lightcyan;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -79,7 +82,7 @@ h2{
 }
 
 .card {
-    background-color: rgba(240, 129, 184, 0.897);
+    background-color: rgba(218, 129, 240, 0.897);
     width: 250px;
     border: none;
     border-radius: 15px;
@@ -128,4 +131,10 @@ section div img {
     .carousel-inner img {
         height: 450px; 
     }
+}
+
+#width {
+    width: 100%;
+    padding: 8px 12px;
+    text-align: left;
 }
