@@ -11,107 +11,117 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <header class="col">
-        <img class="col-6 col-sm-6 col-md-8 logo" src="../assets/esca.png" alt="Logo">
-      </header>
-      <header class="col-12 col-sm-6 col-md-4">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="Search" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
+  <header class="container-fluid py-2">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-8 text-center">
+        <img class="logo" src="../assets/esca.png" alt="Logo">
+      </div>
+      <div class="col-12 col-md-4 text-center">
+        <form class="d-flex justify-content-center" role="search">
+          <input class="form-control me-2 w-75" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+    <nav class="mt-3">
+      <ul class="nav justify-content-around">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./creaciones.html">Creaciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./recetario.html">Recetario</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./relatos-de-ultratumba.html">Relatos de ultratumba</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./tienda.html">Tienda</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="row">
+    <main class="col">
+      <h1>Nuestra tienda</h1>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/Gato disfraz.jpg" class="d-block w-100" alt="gato">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/Perro disfraz.jpg" class="d-block w-100" alt="perro">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/banner calabaza.jpg" class="d-block w-100" alt="calabaza">
+          </div>
         </div>
-      </header>
-      <nav class="col-12">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./creaciones.html">Creaciones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./recetario.html">Recetario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./relatos-de-ultratumba.html">Relatos de ultratumba</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./tienda.html">Tienda</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="row">
-      <main class="col">
-        <h1>Nuestra tienda</h1>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../assets/Gato disfraz.jpg" class="d-block w-100" alt="gato">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/Perro disfraz.jpg" class="d-block w-100" alt="perro">
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/banner calabaza.jpg" class="d-block w-100" alt="calabaza">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="cardContainer">
+        <div class="card">
+          <img class="imagenTienda" src="../assets/Remera goosebumps.JPG" alt="Remera" />
+          <h2>Remera "Goosebumps" negra</h2>
+          <p>$22.000</p>
         </div>
-        <section class="cardContainer">
-          <div class="card">
-            <img class="imagenTienda" src="../assets/Remera goosebumps.JPG" alt="Remera" />
-            <h2>Remera "Goosebumps" negra</h2>
-            <p>$22.000</p>
-          </div>
-          <div class="card">
-            <img class="imagenTienda" src="../assets/calabaza.jpg" alt="Calabaza">
-            <h2>Sticker de calabaza</h2>
-            <p>$1000</p>
-          </div>
-          <div class="card">
-            <img class="imagenTienda" src="../assets/Happy halloween.png" alt="sticker" />
-            <h2>Sticker Happy Halloween</h2>
-            <p>$1000</p>
-          </div>
-          <div class="card">
-            <img class="imagenTienda" src="../assets/Niñes disfraz.jpg" alt="disfraz" />
-            <h2>Disfraz infatil - Varios modelos</h2>
-            <p>$18.000</p>
-          </div>
-          <div class="card">
-            <img class="imagenTienda" src="../assets/Gato disfraz.jpg" alt="disfraz-gato" />
-            <h2>Disfraz para gato</h2>
-            <p>$15.000</p>
-          </div>
-          <div class="card">
-            <img class="imagenTienda" src="../assets/Perro disfraz.jpg" alt="disfraz-perro" />
-            <h2>Disfraz para perro</h2>
-            <p>$15.000</p>
-          </div>
-        </section>
-      </main>
+        <div class="card">
+          <img class="imagenTienda" src="../assets/calabaza.jpg" alt="Calabaza">
+          <h2>Sticker de calabaza</h2>
+          <p>$1000</p>
+        </div>
+        <div class="card">
+          <img class="imagenTienda" src="../assets/Happy halloween.png" alt="sticker" />
+          <h2>Sticker Happy Halloween</h2>
+          <p>$1000</p>
+        </div>
+        <div class="card">
+          <img class="imagenTienda" src="../assets/Niñes disfraz.jpg" alt="disfraz" />
+          <h2>Disfraz infatil - Varios modelos</h2>
+          <p>$18.000</p>
+        </div>
+        <div class="card">
+          <img class="imagenTienda" src="../assets/Gato disfraz.jpg" alt="disfraz-gato" />
+          <h2>Disfraz para gato</h2>
+          <p>$15.000</p>
+        </div>
+        <div class="card">
+          <img class="imagenTienda" src="../assets/Perro disfraz.jpg" alt="disfraz-perro" />
+          <h2>Disfraz para perro</h2>
+          <p>$15.000</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="col footer">
+    <div class="container">
+      <div class="row">
+        <!-- Redes Sociales -->
+        <div class="col-12 col-md-4 redes-sociales">
+          <h3>Síguenos en</h3>
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <div class="col-12 col-md-4 copyright">
+          <p>© 2025 Escalofríos. <br> Todos los sustos reservados.</p>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <footer class="col">
-        footer
-      </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,32 +1,36 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
-    <div class="container-fluid">
-        <div class="row">
-            <header class="col">
-                <img class="col-6 col-sm-6 col-md-8 logo" src="../assets/esca.png" alt="Logo">
-            </header>
-            <header class="col-12 col-sm-6 col-md-4">
-                <div class="container-fluid">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Search" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-              </div>
-            </header>
-            <nav class="col-12"><ul class="nav">
+</head>
+
+<body>
+    <header class="container-fluid py-2">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8 text-center">
+                <img class="logo" src="../assets/esca.png" alt="Logo">
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <form class="d-flex justify-content-center" role="search">
+                    <input class="form-control me-2 w-75" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+        <nav class="mt-3">
+            <ul class="nav justify-content-around">
                 <li class="nav-item">
-                  <a class="nav-link" href="./index.html">Inicio</a>
+                    <a class="nav-link" href="./index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/creaciones.html">Creaciones</a>
+                    <a class="nav-link" href="./pages/creaciones.html">Creaciones</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/recetario.html">Recetario</a>
@@ -37,33 +41,39 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/tienda.html">Tienda</a>
                 </li>
-              </ul>
-            </nav>
-        </div>
+            </ul>
+        </nav>
+    </header>
     <div class="row">
         <main class="col">
             <h1>🕸️ ¡Bienvenido a Escalofríos! 🎃</h1>
             <h2 class="inicio">Donde la magia oscura y el misterio se apoderan de la noche…</h2>
-            <p class="pinicio">¿Te atreves a adentrarte en el lado más sombrío del Halloween? Explora cada rincón de esta web y descubre historias macabras, recetas encantadas y artículos escalofriantes que harán latir tu corazón más rápido. 💀</p>
-            <p class="pinicio">🔮 Sigue la luz tenue de las calabazas y deja que el espíritu de Halloween te envuelva… si te atreves. 😈</p>
+            <p class="pinicio">¿Te atreves a adentrarte en el lado más sombrío del Halloween? Explora cada rincón de
+                esta web y descubre historias macabras, recetas encantadas y artículos escalofriantes que harán latir tu
+                corazón más rápido. 💀</p>
+            <p class="pinicio">🔮 Sigue la luz tenue de las calabazas y deja que el espíritu de Halloween te envuelva…
+                si te atreves. 😈</p>
         </main>
     </div>
-        <footer class="col footer">
-            <div class="container">
-                <div class="row">
-                    <!-- Redes Sociales -->
-                    <div class="col-12 col-md-4 redes-sociales">
-                        <h3>Síguenos en</h3>
-                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    </div>
-                    <div class="col-12 col-md-4 copyright">
-                        <p>© 2025 Escalofríos. <br> Todos los sustos reservados.</p>
-                    </div>
+    <footer class="col footer">
+        <div class="container">
+            <div class="row">
+                <!-- Redes Sociales -->
+                <div class="col-12 col-md-4 redes-sociales">
+                    <h3>Síguenos en</h3>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <div class="col-12 col-md-4 copyright">
+                    <p>© 2025 Escalofríos. <br> Todos los sustos reservados.</p>
                 </div>
             </div>
-        </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

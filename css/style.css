@@ -11,14 +11,11 @@ header {
     padding: 10px 20px;
 }
 
-nav {
-    padding: 10px 20px;
-}
-
 .nav-item a {
     color: rgb(248, 130, 242);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+    font-size: 1.2rem;
 }
 
 .nav-item a:hover {
@@ -35,7 +32,7 @@ img {
 
 .logo {
     border-radius: 8px;
-    max-height: 80px;
+    max-height: 500px;
     max-width: 400px;
     display: block;
     margin: 0 auto;
@@ -106,10 +103,6 @@ h2:hover {
     color: red;
     text-shadow: 0 0 10px red;
     transition: all 0.3s ease-in-out;
-}
-
-.row>* {
-    border: 1px solid black;
 }
 
 .btn-outline-success {
@@ -258,7 +251,7 @@ article h2 {
 .footer {
     background-color: #1b1b1b;
     color: #e6e6e6;
-    padding: 30px 0;
+    padding: 10px 0;
     text-align: center;
     position: relative;
 }
