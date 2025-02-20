@@ -1,0 +1,35 @@
+@media (max-width: 576px) {
+    .carousel-inner img {
+        height: 250px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .carousel-inner img {
+        height: 350px;
+    }
+}
+
+@media (min-width: 993px) {
+    .carousel-inner img {
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor-recetas {
+        grid-template-columns: 1fr 2fr;
+        align-items: start;
+    }
+}
+
+@media (max-width: 767px) {
+    .recetas {
+        grid-template-columns: 1fr;
+    }
+}
+
+#rec {
+    width: 290px;
+    height: 400px;
+}
