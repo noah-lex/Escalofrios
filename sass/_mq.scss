@@ -23,13 +23,19 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .recetas {
         grid-template-columns: 1fr;
+        justify-content: center; 
+        max-width: 100%;
+        margin-right: 0;
     }
 }
 
-#rec {
-    width: 290px;
-    height: 400px;
+@media (max-width: 768px) {
+    .contenedor-recetas {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
 }
