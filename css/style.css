@@ -65,9 +65,9 @@ form {
 
 .contenedor-recetas {
   display: flex;
-  justify-content: space-between; /* Separa los elementos a los extremos */
-  align-items: flex-start; /* Alinea el contenido arriba */
-  gap: 20px; /* Espaciado entre las listas y las recetas */
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .recetas {
@@ -104,7 +104,6 @@ section article h2 {
 header {
   padding: 10px 20px;
 }
-
 header .logo {
   border-radius: 8px;
   max-height: 500px;
@@ -143,6 +142,19 @@ header .nav-item a:active {
   line-height: 1.5;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   margin: 20px;
+}
+
+.testimonios {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonio {
+  background: #f8981a;
+  padding: 20px;
+  margin: 10px auto;
+  width: 50%;
+  border-radius: 10px;
 }
 
 section ul li {
@@ -250,26 +262,22 @@ h3 {
     height: 250px;
   }
 }
-
 @media (min-width: 577px) and (max-width: 992px) {
   .carousel-inner img {
     height: 350px;
   }
 }
-
 @media (min-width: 993px) {
   .carousel-inner img {
     height: 450px;
   }
 }
-
 @media (min-width: 768px) {
   .contenedor-recetas {
     grid-template-columns: 1fr 2fr;
     align-items: start;
   }
 }
-
 @media (max-width: 768px) {
   .recetas {
     grid-template-columns: 1fr;
@@ -278,7 +286,6 @@ h3 {
     margin-right: 0;
   }
 }
-
 @media (max-width: 768px) {
   .contenedor-recetas {
     flex-direction: column;
@@ -286,3 +293,5 @@ h3 {
     text-align: center;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
